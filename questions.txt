@@ -1,41 +1,39 @@
 Open main1.py. Before running it, what do you expect this program to do? 
-
+    I assume it will display a message saying welcome, and then create a text entry asking for my favorite color.
 Now right click on the window and select “Run Python File in Terminal”. Click in the bottom panel, and answer the question. Describe what happened. 
 
 What do you think the program did with what you typed?
-
-
-
+    I think it must have stored my answer.
 Open main2.py. Before running it, describe how this is different than main1.py. 
-
+    This one has a print color command.
 What do you think the color = input() will do? 
-
+    I think it will make the text the color that I typed earlier.
 Run the program in the terminal and answer the question. Did the program do what you expected?
-
+    No, it just printed my answer again.
 
 
 Open main3.py. Before running it, describe how this is different than main2.py. 
-
+    This one has a "if" statement that changes its response based on yours.
 What is happening on lines 11–14? 
-
+    There is an if statement.
 Why are lines 12 and 14 indented? 
-
+    Because Python would like indentation.
 Run the program and answer the question. What happens if you don’t capitalize Red? 
-
+    It tells me to try again.
 What does this tell you about "color"?
-
+    It is case sensetive.
 
 
 Open main4.py. Before running it, describe how this is different than main2.py. 
-
+    It has "red" and "Red" both as correct answers.
 What problem is this trying to solve? 
-
+    It is solving the problem of people not capitalizing things. 
 Run the program and answer the question. What happens if you use some other capitalization scheme (i.e., “RED” or “reD“)?
-
+    It does not recognize these strange capitalizations.
 
 
 Open main5.py. What do you expect line 11 to do? 
-
+    I think it combines the two parts of the if statment from main4.py
 What problem is it trying to solve? 
 
 Run the program and answer the question. What happens if you add spaces before or after the word (i.e., “  RED  “ or “ red”)?
